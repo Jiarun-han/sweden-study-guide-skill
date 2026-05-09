@@ -1,0 +1,18 @@
+{
+  "name": "sweden-study-mcp",
+  "version": "1.0.0",
+  "description": "瑞典KTH留学指南 MCP Server - BY KTH2024 and KTH2025",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "sweden-study-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "sweden", "kth", "study", "留学"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
