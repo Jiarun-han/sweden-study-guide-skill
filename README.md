@@ -9,7 +9,7 @@ BY KTH2024 and KTH2025
 ### 方式一：一行命令安装（推荐）
 
 ```bash
-npx skills add https://github.com/你的用户名/sweden-study-guide --skill sweden-study-guide
+npx skills add https://github.com/Jiarun-han/sweden-study-guide-skill --skill sweden-study-guide
 ```
 
 ### 方式二：发给 AI 安装
@@ -17,14 +17,14 @@ npx skills add https://github.com/你的用户名/sweden-study-guide --skill swe
 > 帮我安装 `sweden-study-guide` 这个 Claude Code skill。请按下面步骤做：
 >
 > 1. 确保 `~/.claude/skills/` 目录存在（不存在就创建）
-> 2. 执行 `git clone https://github.com/你的用户名/sweden-study-guide.git ~/.claude/skills/sweden-study-guide`
+> 2. 执行 `git clone https://github.com/Jiarun-han/sweden-study-guide-skill.git ~/.claude/skills/sweden-study-guide`
 > 3. 验证：`ls ~/.claude/skills/sweden-study-guide/` 应该看到 `SKILL.md`、`references/` 两项
 > 4. 告诉我安装好了
 
 ### 方式三：手动命令行
 
 ```bash
-git clone https://github.com/你的用户名/sweden-study-guide.git ~/.claude/skills/sweden-study-guide
+git clone https://github.com/Jiarun-han/sweden-study-guide-skill.git ~/.claude/skills/sweden-study-guide
 ```
 
 ## 触发方式
